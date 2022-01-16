@@ -21,7 +21,7 @@ const AddTodoForm = () => {
 		<form onSubmit={onSubmit} className='form-inline mt-3 mb-3'>
 			<label className='sr-only'>Name</label>
 			<input
-				type='text'
+				type='text' required
 				className='form-control mb-2 mr-sm-2'
 				placeholder='Add todo...'
 				value={value}
