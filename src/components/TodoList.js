@@ -11,6 +11,7 @@ const TodoList = () => {
 	// 	{ id: 4, title: 'todo4', completed: false },
 	// 	{ id: 5, title: 'todo5', completed: false },
 	// ];
+	console.log(todos);
 
 	return (
 		<ul className='list-group'>
